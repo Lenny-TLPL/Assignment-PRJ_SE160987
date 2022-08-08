@@ -3,5 +3,6 @@
 * Full-stack web porject build with ANT
 * Basic HTML, CSS, JAVASCRIPT
 * GMAIL SENDING
+* reCAPTCHA
 
 #### © 2022 Lenny-TLPL 

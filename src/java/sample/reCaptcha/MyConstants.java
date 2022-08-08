@@ -10,7 +10,8 @@ package sample.reCaptcha;
  * @author Phi Long
  */
 public class MyConstants {
-    public static final String SITE_KEY ="6LfTIsEeAAAAADo0qlkXzAfIa4l3SG9-zChx4aqY";
-   
-   public static final String SECRET_KEY ="6LfTIsEeAAAAAGH14ssRpb3keWnTVctmaodcYP6F";
+
+    public static final String SITE_KEY = "6LfTIsEeAAAAADo0qlkXzAfIa4l3SG9-zChx4aqY";
+
+    public static final String SECRET_KEY = "6LfTIsEeAAAAAGH14ssRpb3keWnTVctmaodcYP6F";
 }
