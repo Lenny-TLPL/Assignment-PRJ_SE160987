@@ -58,7 +58,7 @@ public class OrderController extends HttpServlet {
                 OrderDAO dao=new OrderDAO();
                 OrderListDTO orderList=dao.getListOrder(user.getUserID());
                 session.setAttribute("ORDER_LIST",orderList);
-                ConfirmMail.send(user.getEmail(), "Thank for buying our product","Your order at "+date+" with total price of: "+price+"$ will soon be delivered right to your house", "longtlpse160987@fpt.edu.vn", "1q2w3e4r5t@@");
+                ConfirmMail.send(user.getEmail(), "Thank for buying our product","Your order at "+date+" with total price of: "+price+"$ will soon be delivered right to your house", "longtlpse160987@fpt.edu.vn", "");
             }else{
                 request.setAttribute("ORDER_ERROR", "FAIL TO SUBMIT YOUR ORDER");
             }          
